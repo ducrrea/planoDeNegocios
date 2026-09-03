@@ -51,6 +51,9 @@ As perguntas estarão integradas ao chatbot e serão feitas diretamente no chat 
 
 Com o auxílio do ChatBot, as respostas do formulário serão analisadas e incorporadas em um modelo de prompt que desenvolvemos. Após o modelo de prompt finalizado e revisado, ele então será enviado para a plataforma Stich.ai, que o gerará um protótipo de alta fidelidade e encaminhará para o cliente aprovar e assim prosseguiremos com o desenvolvimento do projeto na plataforma AntiGravity. Caso o cliente queira alterar algo da prototipação, ele pode dizer e assim será alterado antes de ser desenvolvido.
 
+> Modelo de prompt para prototipação:
+
 ### 3.3 Desenvolvimento:
 
 ### 3.4 Testes:
+
