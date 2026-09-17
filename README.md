@@ -76,6 +76,10 @@ O modelo será feito em inglês para garantir maior acertibilidade na criação 
 
 - Validação de contraste mínimo de cores (4.5:1) e independência de cores (uso de texto/ícones além das cores para indicar status).
 
+> **Modelo de prompt para prototipação:** \
+> O modelo será feito em inglês para garantir maior acertibilidade na criação dos protótipos. \
+> *"Context & Role: Act as a senior UI/UX designer. Create <tipo de interface (app de entregas)> for <público-alvo>. \ 2. Visual Guidelines: Theme: <ex: minimalista, moderno, criativo>; Color palette: Primary <cor principal>, secondary: <cor secundária>, background: <cor do fundo>, text: <cor do texto>; Typograph"*
+
 ### 3.3 Desenvolvimento:
 Para a etapa de desenvolvimentos seguiremos o mesmo processo da prototipação com a criação de um modelo que será adaptado para as necessidades do cliente.
 
@@ -102,3 +106,4 @@ Mantenha o código comentado em português e aplique boas práticas (Clean Code,
 Forneça instruções rápidas de como executar a aplicação e rodar as migrações/scripts do banco de dados no final.
 
 ### 3.4 Testes:
+
