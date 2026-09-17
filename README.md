@@ -63,9 +63,12 @@ Para que clientes com deficiência visual ou motora interajam com o chatbot de f
 Com o auxílio do ChatBot, as respostas do formulário serão analisadas e incorporadas em um modelo de prompt padronizado que serpa desenvolvido por nós. Após o modelo de prompt finalizado e revisado, ele então será enviado para a plataforma Stich AI, gerando um protótipo de alta fidelidade e encaminhando para o cliente aprovar para assim prosseguirmos com o desenvolvimento do projeto na plataforma AntiGravity. Caso o cliente queira alterar algo da prototipação, ele pode dizer e assim será alterado antes de ser desenvolvido.
 
 **Modelo de prompt para prototipação:**
-O modelo será feito em inglês para garantir maior acertibilidade na criação dos protótipos.
-"Context & Role: Act as a senior UI/UX designer. Create <tipo de interface (app de entregas)> for <público-alvo>. \ 2. Visual Guidelines: Theme: <ex: minimalista, moderno, criativo>; Color palette: Primary , secondary: <cor secundária>, background: <cor do fundo> , text: <cor do texto> ; Typograph: <fonte>; Components Style: <bordas arredondadas, sombras, etc...> \ 3. Page Structure: Global Layout: <menu de navegação lateral, header, footer>; Header: <ordem dos elementos da header>; Main Section: <o que haverá na área central> \ 4. Step-by-Step UI: <Nome da página e o que ela deverá conter: detalhes de um menu, por exemplo> \ 5. UI States & Interactions: <detalhes como responsividade, animações, etc...>"
-
+> O modelo será feito em inglês para garantir maior acertibilidade na criação dos protótipos. \
+> "Context & Role: Act as a senior UI/UX designer. Create <tipo de interface (app de entregas)> for <público-alvo>. 
+> 1. Visual Guidelines: Theme: <ex: minimalista, moderno, criativo>; Color palette: Primary <cor principal>, secondary: <cor secundária>, background: <cor do fundo> , text: <cor do texto> ; Typograph: <fonte>; Components Style: <bordas arredondadas, sombras, etc...>
+> 2. Page Structure: Global Layout: <menu de navegação lateral, header, footer>; Header: <ordem dos elementos da header>; Main Section: <o que haverá na área central>
+> 3. Step-by-Step UI: <Nome da página e o que ela deverá conter: detalhes de um menu, por exemplo>
+> 4. UI States & Interactions: <detalhes como responsividade, animações, etc...>"
 
 #### Prototipação Acessível e Inclusiva:
 - Audiodescrição e Resumo Estruturado por IA: O próprio chatbot gerará uma descrição em áudio e texto resumindo o layout e a hierarquia visual do protótipo gerado.
@@ -76,34 +79,31 @@ O modelo será feito em inglês para garantir maior acertibilidade na criação 
 
 - Validação de contraste mínimo de cores (4.5:1) e independência de cores (uso de texto/ícones além das cores para indicar status).
 
-> **Modelo de prompt para prototipação:** \
-> O modelo será feito em inglês para garantir maior acertibilidade na criação dos protótipos. \
-> *"Context & Role: Act as a senior UI/UX designer. Create <tipo de interface (app de entregas)> for <público-alvo>. \ 2. Visual Guidelines: Theme: <ex: minimalista, moderno, criativo>; Color palette: Primary <cor principal>, secondary: <cor secundária>, background: <cor do fundo>, text: <cor do texto>; Typograph"*
-
 ### 3.3 Desenvolvimento:
 Para a etapa de desenvolvimentos seguiremos o mesmo processo da prototipação com a criação de um modelo que será adaptado para as necessidades do cliente.
 
 **Modelo de desenvolvimento:**
-Linguagem de Programação: [Ex: TypeScript / Python / C# / PHP / Java]
-Framework/Biblioteca Backend: [Ex: Node.js (Express) / Django / ASP.NET Core / Laravel / Spring Boot]
-Engine de View / Frontend: [Ex: React com Tailwind CSS / Vue.js / Blade / HTML + CSS puro / EJS]
-Banco de Dados: [Ex: PostgreSQL / MySQL / SQLite / MongoDB]
-
-1. PAPEL E OBJETIVO DO SISTEMA
-Atue como um Engenheiro de Software Full-Stack Sênior. Crie a estrutura e a implementação completa de um sistema web chamado [Nome do Sistema] seguindo rigorosamente o padrão arquitetural MVC (Model-View-Controller).
-2. DIRETRIZES DE ESTILIZAÇÃO E INTERFACE
-Para a estilizzação do projeto siga o MCP do Stitch conectado.
-3. ARQUITETURA DO PROJETO 
-Organize o código em uma estrutura de pastas limpa e bem definida conforme o padrão MVC:
-Models/: Definição das entidades de dados, validações e comunicação com o banco de dados/ORM.
-Views/: Interfaces de usuário refletindo o design do Stitch, divididas por módulo e separadas de regras de negócio.
-Controllers/: Intermediários que recebem as requisições, executam a lógica de negócio, chamam os Models e renderizam/retornam as Views ou dados JSON.
-Routes/ / Config/: Mapeamento de rotas HTTP (GET, POST, PUT, DELETE) e arquivos de configuração.
-4. REQUISITOS DE CÓDIGO E FUNCIONALIDADES
-Implemente todas as rotas e métodos CRUD necessários para a aplicação funcionar.
-Adicione tratamento de erros limpo para requisições e formulários.
-Mantenha o código comentado em português e aplique boas práticas (Clean Code, DRY e princípios SOLID).
-Forneça instruções rápidas de como executar a aplicação e rodar as migrações/scripts do banco de dados no final.
+>Programming Language: [EX: TypeScript / Python / C# / PHP / Java]
+Backend Framework/Library: [EX: Node.js (Express) / Django / ASP.NET Core / Laravel / Spring Boot]
+View Engine / Frontend: [EX: React with Tailwind CSS / Vue.js / Blade / Plain HTML + CSS / EJS]
+Database: [EX: PostgreSQL / MySQL / SQLite / MongoDB]
+>
+>1. Role and Objective of the System \
+Work as a Senior Full-Stack Software Engineer. Design the architecture and build the complete implementation of a web system called [System Name], strictly adhering to the MVC (Model-View-Controller) architectural pattern.
+>2. Styling and Interface Guidelines \
+For the project’s styling, follow the MCP from Stitch. 
+>3. Project Architecture \
+Organize the code into a clean, well-defined folder structure following the MVC pattern:
+Models/: Definition of data entities, validations, and communication with the database/ORM.
+Views/: User interfaces reflecting Stitch’s design, organized by module and separated from business logic.
+Controllers/: Intermediaries that receive requests, execute business logic, call the Models, and render/return the Views or JSON data.
+Routes/ / Config/: HTTP route mapping (GET, POST, PUT, DELETE) and configuration files.
+>4. Code and Functionality Requirements \
+Implement all the routes and CRUD methods necessary for the application to function.
+Add clean error handling for requests and forms.
+Keep the code commented in Portuguese and apply best practices (Clean Code, DRY, and SOLID principles).
+Provide quick instructions on how to run the application and execute the database migrations/scripts at the end.
+>5. Requisitos do software
 
 ### 3.4 Testes:
 
