@@ -34,6 +34,13 @@ As perguntas estarão integradas ao chatbot e serão feitas diretamente no chat 
 
 | ID | Requisito | Descrição |
 |-|-|-|
+| RNF-01 | Desempenho e Tempo de execução | O tempo total entre o envio do prompt e o envio do software pronto não deve exceder 30 minutos. |
+| RNF-02 | Acessibilidade universal | Todo o framework, incluindo chatbot e a interface visualizada, devem seguir critérios de contraste, suporte total a leitores de tela e marcações ARIA. |
+| RNF-03 | Usabilidade e navegabilidade | Toda a plataforma deve ser 100% navegável pelo teclado, com indicadores visuais de foco bem definidos. |
+| RNF-04 | Padrão de arquitetura | Todo código gerado pela IA deve seguir o padrão de arquitetura MVC, com comentários em português e aderência aos princípios SOLID e Clean Code. |
+| RNF-05 | Segurança e Privacidade de Dados | A coleta de dados do cliente pelo chatbot deve estar em conformidade com a LGPD, garantindo que informações confidenciais do projeto não sejam expostas. |
+| RNF-06 | Compatibilidade de Plataforma | O chatbot deve funcionar de maneira responsiva em navegadores modernos (Chrome, Firefox, Edge, Safari) e em dispositivos móveis/desktop. |
+| RNF-07 | Disponibilidade | O ambiente da Fábrica de Software e seu Chatbot devem ter disponibilidade mínima de 99,5% do tempo. |
 
 #### Acessibilidade e Inclusão: 
 Para que clientes com deficiência visual ou motora interajam com o chatbot de forma autônoma, a plataforma contará com:
@@ -116,4 +123,3 @@ Provide quick instructions on how to run the application and execute the databas
 >5. Requisitos do software
 
 ### 3.6 Testes:
-
