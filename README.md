@@ -25,6 +25,16 @@ Através de um **formulário com 20 perguntas** sendo algumas objetivas outras d
 
 As perguntas estarão integradas ao chatbot e serão feitas diretamente no chat de conversa para manter tudo em somente uma plataforma.
 
+### 3.2 Requisitos funcionais:
+
+| ID | Requisito | Descrição |
+|-|-|-|
+
+### 3.3 Requisitos não funcionais:
+
+| ID | Requisito | Descrição |
+|-|-|-|
+
 #### Acessibilidade e Inclusão: 
 Para que clientes com deficiência visual ou motora interajam com o chatbot de forma autônoma, a plataforma contará com:
 
@@ -58,7 +68,7 @@ Para que clientes com deficiência visual ou motora interajam com o chatbot de f
 > 19.\
 > 20.
 
-### 3.2 Prototipação:
+### 3.4 Prototipação:
 
 Com o auxílio do ChatBot, as respostas do formulário serão analisadas e incorporadas em um modelo de prompt padronizado que serpa desenvolvido por nós. Após o modelo de prompt finalizado e revisado, ele então será enviado para a plataforma Stich AI, gerando um protótipo de alta fidelidade e encaminhando para o cliente aprovar para assim prosseguirmos com o desenvolvimento do projeto na plataforma AntiGravity. Caso o cliente queira alterar algo da prototipação, ele pode dizer e assim será alterado antes de ser desenvolvido.
 
@@ -79,7 +89,7 @@ Com o auxílio do ChatBot, as respostas do formulário serão analisadas e incor
 
 - Validação de contraste mínimo de cores (4.5:1) e independência de cores (uso de texto/ícones além das cores para indicar status).
 
-### 3.3 Desenvolvimento:
+### 3.5 Desenvolvimento:
 Para a etapa de desenvolvimentos seguiremos o mesmo processo da prototipação com a criação de um modelo que será adaptado para as necessidades do cliente.
 
 **Modelo de desenvolvimento:**
@@ -105,5 +115,5 @@ Keep the code commented in Portuguese and apply best practices (Clean Code, DRY,
 Provide quick instructions on how to run the application and execute the database migrations/scripts at the end.
 >5. Requisitos do software
 
-### 3.4 Testes:
+### 3.6 Testes:
 
