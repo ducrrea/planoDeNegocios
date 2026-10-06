@@ -29,6 +29,17 @@ As perguntas estarão integradas ao chatbot e serão feitas diretamente no chat 
 
 | ID | Requisito | Descrição |
 |-|-|-|
+| RF01 | Formulário Interativo | O sistema deve apresentar as 20 perguntas do levantamento de requisitos de forma conversacional e sequencial no chat. |
+| RF02 | Entrada de Dados Multimodal | O sistema deve permitir que o cliente responda às perguntas por texto digitado ou por ditado de voz (Speech-to-Text). |
+| RF03 | Validação de Respostas | O sistema deve verificar a consistência e o preenchimento dos campos obrigatórios do formulário antes de prosseguir para a prototipação. |
+| RF04 | Geração do Prompt de Prototipação | O sistema deve mapear automaticamente as respostas do formulário para a estrutura padronizada do template de prompt em inglês do Stitch AI. | 
+| RF05 | Integração e Exibição do Protótipo | O sistema deve carregar e exibir o protótipo gerado pelo Stitch AI diretamente na interface de validação do cliente. | 
+| RF06 | Síntese Acessível de Protótipo | O sistema deve gerar uma audiodescrição e um resumo textual estruturado dos elementos visuais do protótipo gerado. | 
+| RF07 | Coleta de Feedback de Ajuste | O sistema deve registrar as solicitações de alteração visual do cliente e atualizar o prompt do Stitch até a aprovação final. | 
+| RF08 | Geração do Prompt de Desenvolvimento | O sistema deve converter o protótipo aprovado e os requisitos funcionais no template de prompt arquitetural MVC para a plataforma AntiGravity. | 
+| RF09 | Execução e Verificação de Código | O sistema deve acionar a geração do código-fonte no AntiGravity e executar checagens automatizadas de sintaxe e estrutura básica. | 
+| RF10 | Disponibilização do Pacote Final | O sistema deve gerar um link ou arquivo para download contendo o código-fonte completo, scripts de banco de dados e o guia de execução. |
+| RF11 | Gestão do Tempo do Ciclo | O sistema deve cronometrar e exibir o tempo decorrido do processo de prototipação e desenvolvimento para garantir o limite de 30 minutos. |
 
 ### 3.3 Requisitos não funcionais:
 
