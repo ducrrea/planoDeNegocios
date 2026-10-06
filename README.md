@@ -53,27 +53,52 @@ Para que clientes com deficiência visual ou motora interajam com o chatbot de f
 
 - Feedback Sonoro: Sinais sonoros sutis indicando o envio/recebimento de mensagens ou validação de campos.
 
-> **Perguntas do formulário:** \
-> 1.\
-> 2.\
-> 3.\
-> 4.\
-> 5.\
-> 6.\
-> 7.\
-> 8.\
-> 9.\
-> 10.\
-> 11.\
-> 12.\
-> 13.\
-> 14.\
-> 15.\
-> 16.\
-> 17.\
-> 18.\
-> 19.\
-> 20.
+---
+**Perguntas do formulário:** 
+ 
+> 1. Qual é o nome do seu site/sistema web e qual é a principal solução ou ideia que ele oferece?
+
+> 2. Quem são os usuários que vão navegar pelo site (ex.: jovens, profissionais, clientes de um serviço específico)?
+
+> 3. Quem são os usuários que vão navegar pelo site (ex.: jovens, profissionais, clientes de um serviço específico)?
+
+> 4. Existe algum site ou concorrente que você gosta e gostaria de usar como inspiração visual ou funcional?
+
+> 5. Quais recursos não podem faltar no site (ex.: barra de busca, catálogo, formulário de contato, upload de arquivos)?
+
+> 6. O site precisa de área de login/cadastro? Se sim, quais serão os tipos de acesso (ex.: Cliente, Administrador, Visitante)?
+
+> 7.  Quais informações você precisa cadastrar, visualizar, editar ou excluir no sistema (ex.: produtos, dados de perfil, agendamentos)?
+
+> 8. Haverá transações financeiras diretamente no site? Se sim, quais opções deseja oferecer (Pix, Cartão de Crédito, Boleto)?
+
+> 9. Você precisará de um Dashboard — um painel administrativo fechado que reúne gráficos, métricas, dados em tempo real e resumos para você gerenciar o negócio? Se sim, quais informações devem aparecer nele?
+
+> 10. O seu site precisará se conectar com serviços externos para funcionar (ex.: enviar mensagens automáticas pelo WhatsApp, enviar e-mails de confirmação, exibir mapas do Google Maps)?
+
+> 11. Você quer que o cliente consiga fazer cadastro/login rápido utilizando contas já existentes, como "Entrar com o Google" ou "Entrar com o Facebook"?
+
+> 12. O site precisará buscar dados de fora automaticamente (ex.: cotação do dólar, previsão do tempo) ou enviar os dados digitados pelo usuário para outro sistema (ex.: salvar contatos direto num CRM como RD Station ou HubSpot)?
+
+> 13. Você já possui uma paleta de cores definida? Quais são as cores principal e secundária que deseja ver no site?
+
+> 14. Qual estilo melhor define a identidade do seu site (ex.: minimalista, moderno, corporativo, divertido, modo escuro/dark mode)?
+
+> 15. Que tom de comunicação o site deve passar (ex.: formal, casual, direto, descontraído)?
+
+> 16. Como você prefere o layout de navegação principal (ex: menu superior tradicional, menu lateral/sidebar ou formato de página única/Landing Page)?
+
+> 17. Quais blocos visuais você quer na página principal (ex.: banner em destaque, cards de serviços, galeria de fotos, seção de depoimentos)?
+
+> 18. O foco principal de uso do seu público será no Computador (Desktop) ou no Celular (Mobile)?
+
+> 19.  Seu público precisará de recursos especiais de visualização, como ajuste do tamanho de fontes, modo de alto contraste, suporte a leitores de tela ou audiodescrição dos elementos visuais?
+
+> 20. A interface deve permitir comandos ou ditado por voz (converter fala em texto), navegação 100% via teclado com atalhos, ou redução de animações para evitar desconforto visual?
+
+> 21. Existe algum detalhe, ferramenta ou funcionalidade única que você "sonha" em ver no seu site para torná-lo exclusivo?
+
+---
 
 ### 3.4 Prototipação:
 
