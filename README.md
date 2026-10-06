@@ -159,3 +159,10 @@ Provide quick instructions on how to run the application and execute the databas
 >5. Requisitos do software
 
 ### 3.6 Testes:
+| ID | Cenário de Teste | Condição para validar | Resultado esperado | 
+|-|-|-|-|
+| CT01 | Teste de conexão com a internet | Ao iniciar o aplicativo, ele se conecta com a internet? | Ao inicializar, o aplicativo deve conectar-se a internet com sucesso. | 
+| CT02 | Teste de entrada | Ao receber uma entrada de dados, ele fornece uma resposta? | Quando o usuário realiza uma entrada de dados, essa entrada é validada e recebe uma resposta. | 
+| CT03 | Teste de comunicação com a IA | Ao inicializar o aplicativo, ele cria conexão com a IA? | Ao inicializar o aplicativo, ele estabelece conexão com a IA com sucesso. | 
+| CT04 | Teste de Limites | Ao cadastrar múltiplos usuários, como a plataforma reage? | A plataforma deve permitir a realização de diversos cadastros e cadastrá-los no banco com sucesso. | 
+ 
